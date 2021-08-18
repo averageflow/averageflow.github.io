@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "Go has make and new functions, what gives ?"
 date: 2020-09-18T22:00:00Z
-weight: 1
-aliases: ["/go-make-or-new"]
-tags: ["Go"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1605953501/jjba-site/home/go-daemon_xmsm1e.png"
-    alt: "Go"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "The Go language has both make and new functions, what gives ? If you are coming from another language, especially one that uses constructors, it may appear that new should be all you need, but Go is not those languages, nor does it have constructors..."
-disableHLJS: false
 ---
 
 This is a post about Go’s built in `make` and `new` functions.

@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "What makes a great programmer ?"
 date: 2020-09-18T22:00:00Z
-weight: 1
-aliases: ["/great-programmer"]
-tags: ["Programming"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1606135201/jjba-site/blog/great-programmer/great-programmer-highlight_xro9oz.jpg"
-    alt: "Go"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "If writing code were a science, all developers would pretty much be the same. But it is not. And just like in art, no two developers have the same thinking or perception..."
-disableHLJS: false
 ---
 
 If writing code were a science, all developers would pretty much be the same. But it is not. And just like in art, no two developers have the same thinking or perception while working towards the same outcome.

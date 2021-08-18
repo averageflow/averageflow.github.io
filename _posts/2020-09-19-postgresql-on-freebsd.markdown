@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "PostgreSQL on FreeBSD"
 date: 2020-09-19T22:00:00Z
-weight: 1
-aliases: ["/postgresql-on-freebsd"]
-tags: ["PostgreSQL", "FreeBSD"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1601815246/jjba-site/blog/postgresql-install-linux/postgresql2_k06kid.png"
-    alt: "PostgreSQL"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "How to set up a proper database environment running on our beloved FreeBSD."
-disableHLJS: false
 ---
 
 PostgreSQL or Postgres is a powerful object-relational high-performance database management system (ORDBMS) published under a flexible BSD-style license. PostgreSQL is well suited for large databases and has many advanced features.

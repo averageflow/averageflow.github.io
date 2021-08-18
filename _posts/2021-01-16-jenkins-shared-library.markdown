@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "Jenkins Shared Library with Unit tests"
 date: 2021-01-16T23:00:00Z
-weight: 1
-aliases: ["/jenkins-shared-library"]
-tags: ["Jenkins", "Groovy", "Unit tests"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1610888171/jjba-site/blog/shared-library-jenkins/iu_tevue6.jpg"
-    alt: "Jenkins"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "Tired of un-testable, un-reliable, repetitive and tedious scripts to deploy your applications with Jenkins? Look no further, here is your solution."
-disableHLJS: false
 ---
 
 ## Writing a Jenkins Shared Library pipeline

@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "Go SSR Wins over JavaScript"
 date: 2021-01-31T20:00:00Z
-weight: 1
-aliases: ["/go-ssr-wins-over-javascript"]
-tags: ["Go", "Clean Code", "JavaScript", "SSR"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1612126015/jjba-site/blog/go-ssr/iu-2_gdigyh.jpg"
-    alt: "NoScript"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "In this day and age, server side rendering proves it is stable and more effective than the JavaScript bloat."
-disableHLJS: false
 ---
 
 In this day and age, server side rendering proves it is stable and more effective than the JavaScript bloat we are growing used to. Any simple page, with perhaps at most 3 KB of actual text content will download over 2 MB of JavaScript in order to simply function.

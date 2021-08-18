@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "FreeBSD Development GNOME VMWare"
 date: 2021-03-28T09:00:00Z
-weight: 1
-aliases: ["/freebsd-dev-vmware"]
-tags: ["FreeBSD", "VMWare", "Dev", "GNOME"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1603433377/jjba-site/blog/freebsd/p8jyvxodxkows5fgsnp4_ri0yvg.png"
-    alt: "FreeBSD"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "Setup a full FreeBSD development environment with GNOME in a VMWare virtual machine"
-disableHLJS: false
 ---
 
 In this tutorial I will proceed to explain how to setup a full developer environment in a VMWare virtual machine. This will help you test more closely to the production environments, and will allow you to develop directly in Jails, and run databases / other services in a containerised and controlled manner, without compromising you base system.

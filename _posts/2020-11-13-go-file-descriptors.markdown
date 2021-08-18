@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "Go File Descriptors"
 date: 2020-11-13T23:00:00Z
-weight: 1
-aliases: ["/go-file-descriptors"]
-tags: ["Go", "File Descriptors", "UNIX"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1605355422/jjba-site/blog/go-file-descriptors/file-descriptor_azndem.jpg"
-    alt: "Go"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "Wondering what to do with the dreaded too many open files error in your Go application?"
-disableHLJS: false
 ---
 
 Ever heard of _dangling pointers_? Have you ever left your database connections without closing them properly?

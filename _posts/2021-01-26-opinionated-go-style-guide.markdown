@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "Go Style Guide"
 date: 2021-01-26T22:00:00Z
-weight: 1
-aliases: ["/opinionated-go-style-guide"]
-tags: ["Go", "Programming"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1601732689/Gophers/bumper640x360_kjo0i8.png"
-    alt: "Go"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "Code style guide based on years of experience and inspiration/ideas from conference talks"
-disableHLJS: false
 ---
 
 

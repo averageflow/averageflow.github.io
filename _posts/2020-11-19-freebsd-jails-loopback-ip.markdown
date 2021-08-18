@@ -1,24 +1,7 @@
 ---
+layout: post
 title: "FreeBSD Jails Loopback IP"
 date: 2020-11-19T23:00:00Z
-weight: 1
-aliases: ["/freebsd-jails-loopback-ip"]
-tags: ["FreeBSD", "Jails", "PF"]
-author: "Josep Jesus Bigorra Algaba"
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-disableShare: false
-cover:
-    image: "https://res.cloudinary.com/dehs6irlh/image/upload/v1605880424/jjba-site/blog/freebsd/VirtualBox_FreeBSD_12.1_07_05_2020_11_59_43_ilhmzr.png"
-    alt: "FreeBSD"
-    caption: ""
-    relative: false
-    hidden: false
-comments: true
-description: "Learn how to set up a loopback interface communication for your iocage jails with pf firewall."
-disableHLJS: false
 ---
 
 In order to keep all of the jails behind a single public IP address, you’ll need to set up a loopback interface and direct the incoming and outgoing traffic of your Jails with a proper firewall like `pf`. Learn how to get started on an amazing setup.
