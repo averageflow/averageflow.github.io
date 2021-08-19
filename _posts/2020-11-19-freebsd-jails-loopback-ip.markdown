@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "FreeBSD Jails Loopback IP"
-date: 2020-11-19T23:00:00Z
+title: FreeBSD Jails Loopback IP
+date: 2020-11-19
 ---
 
 In order to keep all of the jails behind a single public IP address, you’ll need to set up a loopback interface and direct the incoming and outgoing traffic of your Jails with a proper firewall like `pf`. Learn how to get started on an amazing setup.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "FreeBSD Root on ZFS - Partitions"
-date: 2020-11-19T23:00:00Z
+title: FreeBSD Root on ZFS - Partitions
+date: 2020-11-19
 ---
 
 It is important to have a clean separation of concerns, both in your code, as in your machine's setup. If you are looking for information on how to get a ZFS FreeBSD setup on one hard-drive with multiple partitions, this is what you want.

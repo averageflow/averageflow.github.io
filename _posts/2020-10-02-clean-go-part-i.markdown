@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Clean Go - Part I"
-date:   2020-10-02T22:00:00Z
+title:  Clean Go - Part I
+date:   2020-10-02
 ---
 
 # Why Write Clean Code?

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Jenkins Shared Library with Unit tests"
-date: 2021-01-16T23:00:00Z
+title: Jenkins Shared Library with Unit tests
+date: 2021-01-16
 ---
 
 ## Writing a Jenkins Shared Library pipeline

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "PostgreSQL on FreeBSD"
-date: 2020-09-19T22:00:00Z
+title: PostgreSQL on FreeBSD
+date: 2020-09-19
 ---
 
 PostgreSQL or Postgres is a powerful object-relational high-performance database management system (ORDBMS) published under a flexible BSD-style license. PostgreSQL is well suited for large databases and has many advanced features.

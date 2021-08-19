@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "What makes a great programmer ?"
-date: 2020-09-18T22:00:00Z
+title: What makes a great programmer ?
+date: 2020-09-18
 ---
 
 If writing code were a science, all developers would pretty much be the same. But it is not. And just like in art, no two developers have the same thinking or perception while working towards the same outcome.

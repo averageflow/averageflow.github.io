@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "FreeBSD over Linux"
-date: 2020-10-22T22:00:00Z
+title: FreeBSD over Linux
+date: 2020-10-22
 ---
 
 While I believe some of the "political" problems that have been going on with GNU/Linux are important and reasons to consider migrating from GNU/Linux to BSD, there also exist technical reasons to consider.

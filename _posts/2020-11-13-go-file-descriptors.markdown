@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Go File Descriptors"
-date: 2020-11-13T23:00:00Z
+title: Go File Descriptors
+date: 2020-11-13
 ---
 
 Ever heard of _dangling pointers_? Have you ever left your database connections without closing them properly?

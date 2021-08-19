@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Go has make and new functions, what gives ?"
-date: 2020-09-18T22:00:00Z
+title: Go has make and new functions, what gives ?
+date: 2020-09-18
 ---
 
 This is a post about Go’s built in `make` and `new` functions.

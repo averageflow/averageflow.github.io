@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "FreeBSD Development GNOME VMWare"
-date: 2021-03-28T09:00:00Z
+title: FreeBSD Development GNOME VMWare
+date: 2021-03-28
 ---
 
 In this tutorial I will proceed to explain how to setup a full developer environment in a VMWare virtual machine. This will help you test more closely to the production environments, and will allow you to develop directly in Jails, and run databases / other services in a containerised and controlled manner, without compromising you base system.

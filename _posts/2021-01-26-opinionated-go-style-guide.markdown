@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Go Style Guide"
-date: 2021-01-26T22:00:00Z
+title: Go Style Guide
+date: 2021-01-26
 ---
 
 

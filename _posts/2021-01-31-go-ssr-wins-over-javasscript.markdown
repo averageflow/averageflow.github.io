@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Go SSR Wins over JavaScript"
-date: 2021-01-31T20:00:00Z
+title: Go SSR Wins over JavaScript
+date: 2021-01-31
 ---
 
 In this day and age, server side rendering proves it is stable and more effective than the JavaScript bloat we are growing used to. Any simple page, with perhaps at most 3 KB of actual text content will download over 2 MB of JavaScript in order to simply function.
