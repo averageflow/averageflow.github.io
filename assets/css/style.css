@@ -69,9 +69,15 @@ a {
 a:visited {
     color: #606;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
+.post-list {
+    list-style: none;
+}
+
 dt {
     margin-top: 2em;
     font-size: 1.2em;
