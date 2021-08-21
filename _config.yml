@@ -3,9 +3,12 @@ email: jjba@protonmail.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Unix, engineering, hacking. Enrich yourself with knowledge and discover things that might be impressive and interesting in this tech blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://averageflow.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  averageflow
+
+#paginate: 5
+
 
 #minima:
 #  skin: dark
@@ -15,6 +18,7 @@ github_username:  averageflow
 #jekyll-seo
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 
 # Exclude from processing.

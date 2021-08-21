@@ -14,6 +14,9 @@ permalink: /about/
 
 
 ## How to work with Josep?
+
+You might describe me as easy-going, hard-working, serious, committed, stubborn and fair.
+
 After countless hours of dedication I have gained a lot of knowledge in the field, and consider myself a capable, responsible and organized Full Stack Developer. I like functional programming, but also have grown as a professional in the Object Oriented Paradigm, and can see when to use exactly what tool for what job. State can be important for front-end development, but APIs and back-end services should ideally be stateless.
 
 My ideal position is somewhere I can learn something new every day, and where I am allowed the space to grow as a person and as a software engineer.
@@ -43,3 +46,8 @@ Javascript frameworks, inconsistent APIs, non-normalized databases, colleagues t
 * My hometown: Purmerend, The Netherlands
 * Sports loyalties: Snorkeling
 
+
+
+# Contact me?
+
+See why you should, though read my frequently asked questions, first.

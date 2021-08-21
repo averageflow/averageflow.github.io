@@ -6,9 +6,14 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
-  {{ content }}
+  
+<p>{{ site.description | escape }}</p>
 
   {%- include blog-post-list.html -%}
 
+  {{ content }}
+
+  
+
 </div>
+
