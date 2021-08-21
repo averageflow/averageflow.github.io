@@ -36,9 +36,10 @@ Javascript frameworks, inconsistent APIs, non-normalized databases, colleagues t
 ### Other things you might want to know:
 
 * My favorite baked good: Bananenbrood
+* My favourite beer: Difficult question.. La Chouffe, Tripel Karmeliet.
 * My birthday: 23rd December
 * Fruit on pizza? I must say I am positively surprised after a long denial period
 * My coffee order: Zwarte koffie
-* My hometown: Landsmeer
+* My hometown: Purmerend, The Netherlands
 * Sports loyalties: Snorkeling
 
