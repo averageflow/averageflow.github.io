@@ -7,8 +7,7 @@ url: "https://averageflow.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  averageflow
 
-#paginate: 5
-
+paginate: 7
 
 #minima:
 #  skin: dark
