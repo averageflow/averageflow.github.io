@@ -5,10 +5,19 @@ permalink: /about/
 ---
 
 
-<h1 align="center">Hi, I'm Josep Jesus Bigorra Algaba</h1>
+## I'm Josep Jesus Bigorra Algaba
 
-<p align="center">A dedicated and devoted backend developer in the Netherlands</p>
+Dedicated and devoted backend developer in the Netherlands</p>
 
+### Me in 10 seconds
+
+I am a software engineer specialized in back-end development with Go, MySQL, TypeScript, Java, Groovy, Shell scripting and NGINX configurations, as well as FreeBSD enthusiast and aspiring Jails and rc.d professional.
+
+Spanish native, grew up in Portugal, I now live in The Netherlands.
+
+Me in 10 minutes? 
+
+What am I doing now? See my ["now"](/now/) page.
 
 <h3 align="left">Languages and Tools:</h3>
 
