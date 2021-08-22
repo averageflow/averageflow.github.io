@@ -37,7 +37,7 @@ small,
 .small,
 footer,
 dl#tweetlist dt {
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
     color: #666;
 }
 
@@ -49,6 +49,10 @@ dl#tweetlist dt {
 
 .footer-link {
     padding: 1rem;
+    font-size: 1.2rem;
+    font-family: valkyrie_c4;
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1,

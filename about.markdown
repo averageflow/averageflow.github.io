@@ -1,28 +1,21 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 
 
-## I'm Josep Jesus Bigorra Algaba
-
-Dedicated and devoted backend developer in the Netherlands</p>
+### I'm Josep Jesus Bigorra Algaba
 
 ### Me in 10 seconds
 
-I am a software engineer specialized in back-end development with Go, MySQL, TypeScript, Java, Groovy, Shell scripting and NGINX configurations, as well as FreeBSD enthusiast and aspiring Jails and rc.d professional.
+I am a software engineer specialized in back-end development with Go, MySQL, TypeScript, Java, Groovy, Shell scripting and NGINX configurations, as well as FreeBSD enthusiast and aspiring Jails and rc.d professional, and Linux connaisseur.
 
 Spanish native, grew up in Portugal, I now live in The Netherlands.
 
-Me in 10 minutes? 
 
-What am I doing now? See my ["now"](/now/) page.
+<!-- What am I doing now? See my ["now"](/now/) page. -->
 
-<h3 align="left">Languages and Tools:</h3>
-
-
-## How to work with Josep?
+## More about me
 
 You might describe me as easy-going, hard-working, serious, committed, stubborn and fair.
 
@@ -32,31 +25,30 @@ My ideal position is somewhere I can learn something new every day, and where I 
 
 From custom made websites, RESTful APIs, databases, server side solutions, to mobile apps and desktop software I am ready to take on projects and help clients achieve their goals, considering business needs and best industry practices.
 
-### My work hours:
+### My work hours
 I am a morning person, and like to start my day early and also finish early. Ideally I work from 7.30-8 until 16h. Of course being a Software Engineer I find myself spending more hours than I should sometimes.
 
 ### What’s the best way to communicate with me?
 I prefer to be pinged on Slack or emailed for small things, but I find calls and screen sharing simply work better for more complicated matters. Feel free to email me for anything :).
 
 ### I'd love to help you with
-Go, Databases, REST APIs, CI pipelines in Groovy.
+Go, Databases, REST APIs, CI pipelines in Groovy, FreeBSD.
 
 ### What makes me grumpy?
-Javascript frameworks, inconsistent APIs, non-normalized databases, colleagues that are not dedicated.
-
+Inconsistent APIs and naming, non-normalized databases, colleagues that are not dedicated.
 
 ### Other things you might want to know:
 
 * My favorite baked good: Bananenbrood
 * My favourite beer: Difficult question.. La Chouffe, Tripel Karmeliet.
-* My birthday: 23rd December
+* My birthday: 23rd December 1996.
 * Fruit on pizza? I must say I am positively surprised after a long denial period
-* My coffee order: Zwarte koffie
-* My hometown: Purmerend, The Netherlands
-* Sports loyalties: Snorkeling
+* My coffee order: Zwarte koffie.
+* My hometown: Purmerend, The Netherlands.
+* Sports loyalties: Snorkeling.
+* Love to restore wooden furniture to a more beautiful shape.
 
 
 
-# Contact me?
-
+## Contact me?
 See why you should, though read my frequently asked questions, first.
