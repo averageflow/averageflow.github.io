@@ -30,6 +30,11 @@ input[type="submit"] {
     font-weight: normal;
     font-style: normal;
 }
+
+.pagination {
+    font-family: valkyrie_c4, Georgia, "Times New Roman", Times, serif !important;
+}
+
 span.url {
     font-family: Georgia, serif;
 }
