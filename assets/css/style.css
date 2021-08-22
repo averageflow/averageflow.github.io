@@ -40,6 +40,17 @@ dl#tweetlist dt {
     font-size: 0.8em;
     color: #666;
 }
+
+.footer-col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    padding: 1rem;
+}
+
 h1,
 h2,
 h3,
