@@ -14,6 +14,7 @@ Spanish native, grew up in Portugal, I now live in The Netherlands.
 
 
 <!-- What am I doing now? See my ["now"](/now/) page. -->
+This website was inspired by [Derek Sivers](https://sive.rs/).
 
 ## More about me
 
