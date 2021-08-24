@@ -8,8 +8,8 @@ body {
     font-family: Domine, Georgia, serif;
     font-size: 20px;
     line-height: 30px;
-    background-color: #fff;
-    color: #000;
+    background-color: #eee;
+    color: #111;
 }
 h1,
 h2,
@@ -28,6 +28,7 @@ input[type="submit"] {
     font-style: normal;
 }
 
+.post-title { text-transform: uppercase; }
 .pagination {
     font-family: Voolkorn, Georgia, "Times New Roman", Times, serif !important;
 }
@@ -91,7 +92,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.post-list {
+.ist {
     list-style: none;
 }
 
