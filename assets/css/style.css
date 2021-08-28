@@ -31,7 +31,7 @@ pre {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: var(--ebony);
+        background-color: var(--ebony-darker);
         color: var(--ivory);
     }
     a {
@@ -43,7 +43,7 @@ pre {
 
     pre {
         color: var(--ivory);
-        background-color: var(--ebony-darker);
+        background-color: var(--ebony);
     }
 }
 
