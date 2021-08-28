@@ -24,11 +24,9 @@ a:visited {
     color: var(--puce-darker);
 }
 
-pre,
-code {
+pre {
     color: var(--ivory);
     background-color: var(--ebony);
-    font-family: "Source Code Pro", "Courier New", Courier, monospace !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,6 +47,9 @@ code {
     }
 }
 
+code {
+    font-family: "Source Code Pro", "Courier New", Courier, monospace !important;
+}
 body {
     max-width: 65%;
     margin: 0 auto;

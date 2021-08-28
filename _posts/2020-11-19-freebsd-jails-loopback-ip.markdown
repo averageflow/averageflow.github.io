@@ -12,7 +12,9 @@ Iocage makes use of ZFS clones in order to create base jails, which allow for sh
 
 You can install it from a binary package:
 
-`pkg install -y py37-iocage`
+```sh
+pkg install -y py37-iocage
+```
 
 ## Setting up the zpool
 
