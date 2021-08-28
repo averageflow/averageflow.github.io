@@ -41,6 +41,7 @@ Inconsistent APIs and naming, non-normalized databases, colleagues that are not 
 ### Other things you might want to know:
 
 * My favorite baked good: Bananenbrood
+* My daily driver: Fedora on a Lenovo Thinkpad with FreeBSD VMs
 * My favourite beer: Difficult question.. La Chouffe, Tripel Karmeliet.
 * My birthday: 23rd December 1996.
 * Fruit on pizza? I must say I am positively surprised after a long denial period
