@@ -4,9 +4,9 @@
     --ebony: #313534;
     --ebony-darker: #252928;
     --freesia: #dfb300;
-    --freesia-darker: #a38302;
+    --freesia-darker: #dbb002;
     --puce: rgb(82, 29, 26);
-    --puce-darker: #3b1512;
+    --puce-darker: rgb(78, 25, 22);
     --ivory: #f4efdb;
     --ivory-darker: #ddd8c4;
 }
@@ -73,6 +73,16 @@ body {
 
 .post-content {
     text-align: justify;
+}
+
+.post-content picture,
+post-content img {
+    text-align: center;
+}
+
+.center-image {
+    margin: 0 auto;
+    display: block;
 }
 
 h1,
