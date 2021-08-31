@@ -10,29 +10,29 @@ You can find more detailed information and examples in the handbook: [Practical 
 
 ## CLI options choice for daemons
 
-Find below the options we normally use for any /etc/rc.d script as daemon. See more options by in the terminal issuing:
+Find below the options we normally use for any `/etc/rc.d` script as daemon. See more options by in the terminal issuing:
 man daemon
 
-`-f`: Redirect standard input, standard output and standard error to `/dev/null`.  When this option is used together with any of the options related to file or syslog output, the standard file descriptors are first redirected to `/dev/null`, then `stdout` and/or stderr is redirected to a file or to syslog as specified by the other options.
+`-f`: Redirect standard input, standard output and standard error to `/dev/null`.  When this option is used together with any of the options related to file or `syslog` output, the standard file descriptors are first redirected to `/dev/null`, then `stdout` and/or `stderr` is redirected to a file or to `syslog` as specified by the other options.
 
-`-S`: Enable syslog output.  This is implicitly applied if other syslog parameters are provided. The default values are `daemon`, `notice`, and `daemon` for facility, priority, and tag, respectively.
+`-S`: Enable `syslog` output.  This is implicitly applied if other `syslog` parameters are provided. The default values are `daemon`, `notice`, and `daemon` for facility, priority, and tag, respectively.
 
-`-P` <supervisor pid file>:  Write the ID of the daemon process into the file with given name using the `pidfile(3)` functionality.  The program is executed in a spawned child process while the daemon waits until it terminates to keep the `supervisor_pidfile` locked and removes it after the process exits.  The `supervisor_pidfile` owner is the user who runs the daemon regardless of whether the -u option is used or not.
+`-P` <supervisor pid file>:  Write the ID of the daemon process into the file with given name using the `pidfile` functionality.  The program is executed in a spawned child process while the daemon waits until it terminates to keep the `supervisor_pidfile` locked and removes it after the process exits.  The `supervisor_pidfile` owner is the user who runs the daemon regardless of whether the `-u` option is used or not.
 
 `-r`: Supervise and restart the program after a one-second delay if it has been terminated.
 Connecting a script to the rc.d framework
 
 In a nutshell, `rcorder` takes a set of files, examines their contents, and prints a dependency-ordered list of files from the set to stdout. The point is to keep dependency information inside the files so that each file can speak for itself only. A file can specify the following information:
 
-* the names of the "conditions" (which means services to us) it provides with # KEYWORD:
+* the names of the "conditions" (which means services to us) it provides with `# KEYWORD`:
 
-* the names of the "conditions" it requires with # REQUIRE:
+* the names of the "conditions" it requires with `# REQUIRE`:
 
-* the names of the "conditions" this file should run before with # BEFORE:
+* the names of the "conditions" this file should run before with `# BEFORE`:
 
-* additional keywords that can be used to select a subset from the whole set of files (rcorder(8) can be instructed via options to include or omit the files having particular keywords listed.) with # KEYWORD:
+* additional keywords that can be used to select a subset from the whole set of files (`rcorder` can be instructed via options to include or omit the files having particular keywords listed.) with # KEYWORD:
 
-As a rule of thumb, every custom made rc.d script should provide 1 daemon, and require DAEMON and networking to be initialized. Thus the first lines of your rc.d script will generally look something like:
+As a rule of thumb, every custom made rc.d script should provide 1 daemon, and require `DAEMON` and `networking` to be initialized. Thus the first lines of your rc.d script will generally look something like:
 
 ```sh
 #!/bin/sh
@@ -44,9 +44,9 @@ As a rule of thumb, every custom made rc.d script should provide 1 daemon, and r
 
 ## Daemon load order
 
-The order in which the daemons load is highly important. For this example, our my_service rc.d script should run as a daemon and should be able to access the network.
+The order in which the daemons load is highly important. For this example, our `my_service` rc.d script should run as a daemon and should be able to access the network.
 
-This means that it should only load after DAEMON and networking are loaded and running.
+This means that it should only load after `DAEMON` and `networking` are loaded and running.
 
 You can verify the load order with:
 

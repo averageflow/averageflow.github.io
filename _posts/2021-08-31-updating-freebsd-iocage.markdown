@@ -11,7 +11,7 @@ You can always refer to [Chapter 24: Updating and Upgrading FreeBSD](https://doc
  
 ## Updating the host
 
-FreeBSD is known for being reliable and to be painlessly upgradeable, even with custom setups, like we do, with manual partitioning, ZFS on root, FreeBSD can handle this easily.
+FreeBSD is known for being reliable and to be painlessly upgradeable, even with custom setups, like I do, with manual partitioning, ZFS on root, FreeBSD can handle this easily.
 
 We should start by evaluating the current version we have installed, with:
 
@@ -30,9 +30,9 @@ sudo pkg update
 sudo pkg upgrade
 ```
 
-Make sure to have a TransIP snapshot of the machine or VMWare snapshot for a VM
+Make sure to have a snapshot of the machine or VMWare snapshot for a VM.
 
-Once all updates are installed, we can then proceed to do the upgrade (in this case to 13.0-RELEASE):
+Once all updates are installed, we can then proceed to do the upgrade (in this case to `13.0-RELEASE`):
 
 ```sh
 sudo freebsd-update -r 13.0-RELEASE upgrade
@@ -87,7 +87,7 @@ You can get an overview of your jails with:
 sudo iocage list
 ```
 
-You should prefetch the wanted release files, which will then be available for all upgrades and for any new jails you might want to create with said version.
+You should pre-fetch the wanted release files, which will then be available for all upgrades and for any new jails you might want to create with said version.
 
 ```
 sudo iocage fetch -r 13.0-RELEASE
@@ -98,20 +98,20 @@ If the machine you are working on contains many jails, you should likely open se
 
 In order to upgrade a jail’s FreeBSD version you should run:
 
-```
+```sh
 sudo iocage upgrade <name of your jail> -r 13.0-RELEASE
 ```
 
 then we must update all packages within the jail:
 
-```
+```sh
 sudo iocage pkg <name of your jail> update
 sudo iocage pkg <name of your jail> upgrade -y
 ```
 
 it is recommendable to restart the jail after the procedure:
 
-```
+```sh
 sudo iocage restart <name of your jail>
 ```
 
