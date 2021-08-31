@@ -7,12 +7,13 @@
     --freesia-darker: #dbb002;
     --puce: rgb(82, 29, 26);
     --puce-darker: rgb(78, 25, 22);
+    --ivory-lighter: #fcf9f1;
     --ivory: #f4efdb;
     --ivory-darker: #ddd8c4;
 }
 
 body {
-    background-color: var(--ivory);
+    background-color: var(--ivory-lighter);
     color: var(--ebony);
 }
 
