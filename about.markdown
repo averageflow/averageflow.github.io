@@ -15,9 +15,9 @@ I like Distributed Tracing and understand observability might be critical for co
 Spanish native, grew up in Portugal, I now live in The Netherlands.
 
 
-
-
 ## More about me
+
+See [my LinkedIn](https://www.linkedin.com/in/josepjba/) and [my GitHub](https://github.com/averageflow).
 
 You might describe me as easy-going, hard-working, serious, committed, stubborn and fair.
 
