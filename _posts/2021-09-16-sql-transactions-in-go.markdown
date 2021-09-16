@@ -4,8 +4,6 @@ title: SQL Transactions in Go
 date: 2021-08-31
 ---
 
-# SQL Transactions in Go
-
 There are several advantages into using prepared statements and transactions in SQL, in my case mostly with  MariaDB. I will explain some of the advantages, some of the caveats and handy tips to manage them, specifically with Go.
 
 ## Useful Resouces
