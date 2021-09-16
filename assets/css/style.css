@@ -22,7 +22,7 @@ a {
 }
 
 a:visited {
-    color: var(--puce-darker);
+    color: var(--puce);
 }
 
 pre {
@@ -39,7 +39,7 @@ pre {
         color: var(--freesia);
     }
     a:visited {
-        color: var(--freesia-darker);
+        color: var(--freesia);
     }
 
     pre {
@@ -48,27 +48,41 @@ pre {
     }
 }
 
+.footer-col {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 code {
     font-family: "Source Code Pro", "Courier New", Courier, monospace !important;
 }
 body {
     max-width: 65%;
     margin: 0 auto;
-    padding: 0.8em;
+    /* padding: 0.8em; */
     font-family: Domine, Georgia, serif;
     font-size: 1.2rem;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 
 @media screen and (max-width: 800px) {
     body {
         max-width: 90%;
     }
+
+    .footer-col {
+        display: grid;
+    }
 }
 
 @media screen and (max-width: 1280px) {
     body {
         max-width: 75%;
+    }
+
+    .footer-col {
+        display: grid;
     }
 }
 
@@ -98,12 +112,12 @@ input[type="submit"] {
     font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif !important;
 }
 .highlighted-link {
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
 }
 
 .post-title {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .pagination {
@@ -117,12 +131,6 @@ input[type="submit"] {
 
 span.url {
     font-family: Domine, Georgia, serif;
-}
-
-.footer-col {
-    text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 .footer-link {
@@ -161,6 +169,7 @@ a:hover {
 
 .post-list {
     list-style: none;
+    padding-left: 0;
 }
 
 dt {
