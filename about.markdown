@@ -51,7 +51,9 @@ Inconsistent APIs and naming, non-normalized databases, colleagues that are not 
 * Sports loyalties: Snorkeling.
 * Love to restore wooden furniture to a more beautiful shape.
 
+## Me IRL
 
+![Josep's photo](https://avatars.githubusercontent.com/averageflow)
 
 ## Contact me?
 See why you should, though read my frequently asked questions, first.
