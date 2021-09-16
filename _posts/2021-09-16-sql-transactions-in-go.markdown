@@ -73,48 +73,48 @@ Here you can see some production transactions that I have slightly altered for t
 ```go
 // AddressBulkInsertion will perform a transaction to insert addresses in bulk
 func AddressBulkInsertion(db *sql.DB, addresses []Address) error{
-	tx, err := db.Begin()
-	if err != nil {
-		_ = tx.Rollback()
-		return err
-	}
+  tx, err := db.Begin()
+  if err != nil {
+    _ = tx.Rollback()
+    return err
+  }
 
-	// here should be your SQL, never mind the naming here
-	insertStmt, err := tx.Prepare(`
-	INSERT INTO addresses (uid, address_data, created_at, updated_at) 
-	VALUES (?, ?, ?, ?) ON DUPLICATE KEY 
-	    UPDATE address_data = ?, updated_at = ?;
-	`)
-	if err != nil {
-		_ = tx.Rollback()
-		return err
-	}
+  // here should be your SQL, never mind the naming here
+  insertStmt, err := tx.Prepare(`
+  INSERT INTO addresses (uid, address_data, created_at, updated_at) 
+  VALUES (?, ?, ?, ?) ON DUPLICATE KEY 
+      UPDATE address_data = ?, updated_at = ?;
+  `)
+  if err != nil {
+    _ = tx.Rollback()
+    return err
+  }
 
-	defer insertStmt.Close()
+  defer insertStmt.Close()
 
-	for i := range payload {
-		now := time.Now().Unix()
+  for i := range payload {
+    now := time.Now().Unix()
 
-		if _, errr := insertStmt.Exec(
-			uuid.NewString(),
-			address.addressData,
-			now,
-			now,
-		); errr != nil {
-			// you might be interested in continuing the loop
-			// even when some error occurs, perhaps due to 
-			// bad data or inconsistencies and you try to do as good as possible
-			log.Println(errr.Error())
-			continue
+    if _, errr := insertStmt.Exec(
+      uuid.NewString(),
+      address.addressData,
+      now,
+      now,
+    ); errr != nil {
+      // you might be interested in continuing the loop
+      // even when some error occurs, perhaps due to 
+      // bad data or inconsistencies and you try to do as good as possible
+      log.Println(errr.Error())
+      continue
 
-			// otherwise simply rollback and return
-			// if you want the entire bulk job to stop
-			_ = tx.Rollback()
-			return errr
-		}
-	}
+      // otherwise simply rollback and return
+      // if you want the entire bulk job to stop
+      _ = tx.Rollback()
+      return errr
+    }
+  }
 
-	return tx.Commit()
+  return tx.Commit()
 }
 ```
 
