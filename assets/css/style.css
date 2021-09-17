@@ -66,6 +66,10 @@ body {
     /* line-height: 30px; */
 }
 
+.post-content {
+    text-align: justify;
+}
+
 @media screen and (max-width: 800px) {
     body {
         max-width: 90%;
@@ -73,6 +77,10 @@ body {
 
     .footer-col {
         display: grid;
+    }
+
+    .post-content {
+        text-align: left;
     }
 }
 
@@ -84,10 +92,6 @@ body {
     .footer-col {
         display: grid;
     }
-}
-
-.post-content {
-    text-align: justify;
 }
 
 .post-content picture,
