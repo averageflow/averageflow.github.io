@@ -68,6 +68,7 @@ body {
 
 .post-content {
     text-align: justify;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 800px) {
