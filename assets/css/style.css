@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Domine&family=Playfair+Display&family=DM+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Playfair+Display&family=Source+Code+Pro&display=swap");
 
 :root {
     --ebony: #313534;
@@ -55,7 +55,7 @@ pre {
 }
 
 code {
-    font-family: "DM Mono", "Source Code Pro", "Courier New", Courier, monospace !important;
+    font-family: "Source Code Pro", "Courier New", Courier, monospace !important;
 }
 body {
     max-width: 65%;
