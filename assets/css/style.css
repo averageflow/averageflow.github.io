@@ -193,7 +193,7 @@ blockquote {
 }
 pre {
     padding: 0.8em;
-    line-height: 1;
+    line-height: 1.5;
     border-radius: 0.4em;
     overflow-x: auto;
 }
