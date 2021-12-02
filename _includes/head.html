@@ -8,6 +8,12 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 
-  {%- include custom-head.html -%}
+  <title>
+   {%if page.title %}
+       {{ page.title }} | JJBA
+   {% else %}
+       {{ site.title }} | JJBA
+   {% endif %}
+</title>
   
 </head>
