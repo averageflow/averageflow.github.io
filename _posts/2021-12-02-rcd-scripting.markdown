@@ -2,6 +2,7 @@
 layout: post
 title: rc.d scripting
 date: 2021-12-02
+description: FreeBSD uses the init system, and system services must be made as rc.d scripts
 ---
 
 FreeBSD uses the init system, and system services must be made as rc.d scripts.

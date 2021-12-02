@@ -2,6 +2,7 @@
 layout: post
 title: Go has make and new functions, what gives ?
 date: 2020-09-18
+description: Go’s built in `make` and `new` functions
 ---
 
 This is a post about Go’s built in `make` and `new` functions.

@@ -2,6 +2,7 @@
 layout: page
 permalink: /about/
 title: About
+description: I'm Josep Jesus Bigorra Algaba. Read more about me.
 ---
 
 
