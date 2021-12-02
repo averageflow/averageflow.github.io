@@ -100,7 +100,7 @@ run_rc_command "$1"
 ## Shell scripts as daemons
 
 Shell scripts that run utilities can also be daemonized. See the example below:
-```
+```sh
 #!/bin/sh
 
 # PROVIDE: my_script_service
