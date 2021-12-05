@@ -29,7 +29,8 @@ $theme-colors: (
 $font-family-monospace: "Source Code Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
     monospace;
 
-$font-family-title: "Playfair Display", "Times New Roman";
+$font-family-stylish: "Playfair Display", "Times New Roman";
+$font-family-classic: "Domine", "Times New Roman";
 
 $font-family-base: $font-family-sans-serif;
 
@@ -39,11 +40,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $font-family-title;
+    font-family: $font-family-stylish;
 }
 
-.is-font-family-title {
-    font-family: $font-family-title;
+.is-font-family-classic {
+    font-family: $font-family-classic;
+}
+
+.is-font-family-stylish {
+    font-family: $font-family-stylish;
 }
 
 pre {

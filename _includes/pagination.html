@@ -1,6 +1,6 @@
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="is-font-family-title text-center text-lg-start p-3">
+<div class="is-font-family-classic text-center text-lg-start p-3">
   {% if paginator.previous_page %}
   <a class="text-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;
     Prev</a>
