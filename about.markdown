@@ -29,14 +29,6 @@ My ideal position is somewhere I can learn something new every day, and where I 
 
 From custom made websites, RESTful APIs, databases, server side solutions, to mobile apps and desktop software I am ready to take on projects and help clients achieve their goals, considering business needs and best industry practices.
 
-### Reviews about me
-
-Written by [Dan Dobos](https://www.linkedin.com/in/danandreidobos/):
-> Josep is a one man army. Is the youngest senior developer that I've met who can solve problems you don't even know you have. Always looks at the whole picture and finds the simplest solution for the most complicated task. He has a lot of patience, always the right answers. He is a technical person who would speak for days about technology, so... don't get him started, unless you have something to take notes.
-
-Written by [Miroslav Windhouwer](https://www.linkedin.com/in/miroslav-windhouwer-77789591/):
-> Josep is a humble yet very skilled developer with great analytical skills and an eye for details, not does he only master his occupation but he is also a great devops engineer. Josep knows his way around the Linux/Unix environment is if he was a Linux Engineer himself. I really enjoyed working with Joseph he is a great team player with lots of patience and communication  skills.Joseph never stops being a great developer it doesn't matter if its weekend or working hours for him the moment he gets an idea or reads about something he can use he starts mastering it immediately. I strongly recommend Joseph as a colleague/team member 11/10 there are little amount of people who are as hungry for perfection as he is!
-
 ### My work hours
 I am a morning person, and like to start my day early and also finish early. Ideally I work from 7.30-8 until 16h. Of course being a Software Engineer I find myself spending more hours than I should sometimes.
 
@@ -65,5 +57,15 @@ Inconsistent APIs and naming, non-normalized databases, colleagues that are not 
 
 <img class="img-fluid" style="border-radius: 50%" src="https://avatars.githubusercontent.com/averageflow" alt="Josep's photo">
 
-## Contact me?
-See why you should, though read my frequently asked questions, first.
+
+### Reviews about me
+
+Written by [Dan Dobos](https://www.linkedin.com/in/danandreidobos/):
+<blockquote class="blockquote">
+Josep is a one man army. Is the youngest senior developer that I've met who can solve problems you don't even know you have. Always looks at the whole picture and finds the simplest solution for the most complicated task. He has a lot of patience, always the right answers. He is a technical person who would speak for days about technology, so... don't get him started, unless you have something to take notes.
+</blockquote>
+
+Written by [Miroslav Windhouwer](https://www.linkedin.com/in/miroslav-windhouwer-77789591/):
+<blockquote class="blockquote">
+Josep is a humble yet very skilled developer with great analytical skills and an eye for details, not does he only master his occupation but he is also a great devops engineer. Josep knows his way around the Linux/Unix environment is if he was a Linux Engineer himself. I really enjoyed working with Joseph he is a great team player with lots of patience and communication  skills. Josep never stops being a great developer it doesn't matter if its weekend or working hours for him the moment he gets an idea or reads about something he can use he starts mastering it immediately. I strongly recommend Joseph as a colleague/team member 11/10 there are little amount of people who are as hungry for perfection as he is!
+</blockquote>
