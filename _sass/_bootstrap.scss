@@ -7,12 +7,15 @@ $freesia: #dfb300;
 $puce: rgb(82, 29, 26);
 $ivory: #f4efdb;
 $slime: rgb(120, 212, 83);
+$manonBlue: #66d9ef;
+$manonPink: #fa498a;
 
 /* redefine theme colors for dark theme */
 $primary: $freesia;
 $dark: $ebony;
 $code-color: $slime;
 $pre-color: white;
+$link-color: $manonBlue;
 
 $theme-colors: (
     "primary": $primary,
