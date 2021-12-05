@@ -7,7 +7,7 @@
 <ul class="list-unstyled">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {%- for post in paginator.posts -%}
-  <li>
+  <li class="p-3">
     {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="text-primary">{{ post.title | escape }}</h2>
