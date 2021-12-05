@@ -63,7 +63,7 @@ Inconsistent APIs and naming, non-normalized databases, colleagues that are not 
 
 ## Me IRL
 
-![Josep's photo](https://avatars.githubusercontent.com/averageflow)
+<img class="img-fluid" style="border-radius: 50%" src="https://avatars.githubusercontent.com/averageflow" alt="Josep's photo">
 
 ## Contact me?
 See why you should, though read my frequently asked questions, first.
