@@ -1,16 +1,18 @@
-<header class="site-header">
+<header>
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
+<nav class="navbar navbar-expand-lg navbar-dark is-font-family-title">
+{%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <section id="masthead">
-    <h1>
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </h1>
-    </section>
-
-
-  </div>
+  <h1><a class="navbar-brand  text-primary" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+  {{/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> */}}
+  {{/* <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" href="/about">About</a>
+    </div>
+  </div> */}}
+</nav>
 </header>
 

@@ -1,0 +1,54 @@
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_mixins";
+@import "bootstrap/scss/_variables";
+
+$ebony: #313534;
+$freesia: #dfb300;
+$puce: rgb(82, 29, 26);
+$ivory: #f4efdb;
+$slime: rgb(120, 212, 83);
+
+/* redefine theme colors for dark theme */
+$primary: $freesia;
+$dark: $ebony;
+$code-color: $slime;
+$pre-color: white;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "danger": $danger,
+    "info": $indigo,
+    "dark": $dark,
+    "light": $light,
+);
+
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Playfair+Display&family=Source+Code+Pro&display=swap");
+
+$font-family-monospace: "Source Code Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+
+$font-family-title: "Playfair Display", "Times New Roman";
+
+$font-family-base: $font-family-sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-title;
+}
+
+.is-font-family-title {
+    font-family: $font-family-title;
+}
+
+pre {
+    background: darken($ebony, 7%);
+    padding: 1em;
+    border-radius: 4px;
+}
+@import "bootstrap/scss/bootstrap";

@@ -1,20 +1,16 @@
-<footer class="site-footer h-card" style="margin-top: 6rem;">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer >
+  <data  href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <a class="highlighted-link" href="/about/">{{ site.description | escape }}</a>
+  <div >
+      <div >
+        <a class="is-font-family-title text-primary" href="/about/">{{ site.description | escape }}</a>
       </div>
-      <div class="footer-col">
-        <a class="footer-link" href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to top</p>
-        <a class="footer-link" href="{{ 'feed.xml' | relative_url }}">
-          <span>Subscribe</span>
-        </a>
+      <div >
+        <a class="is-font-family-title text-primary" href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to top</p>
+      
       </div>
-    </div>
 
-    <div class="social-links">
+    <div>
       {%- include social.html -%}
     </div>
 
@@ -23,12 +19,12 @@
 </footer>
 
 {%- if site.author %}
-  <ul class="contact-list">
+  <ul >
     {% if site.author.name -%}
-      <li class="p-name">{{ site.author.name | escape }}</li>
+      <li >{{ site.author.name | escape }}</li>
     {% endif -%}
     {% if site.author.email -%}
-      <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+      <li><a  href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
     {%- endif %}
   </ul>
 {%- endif %}

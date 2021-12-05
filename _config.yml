@@ -7,7 +7,7 @@ url: "https://averageflow.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  averageflow
 
-paginate: 7
+paginate: 20
 
 #minima:
 #  skin: dark
@@ -39,3 +39,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-autoprefixer
