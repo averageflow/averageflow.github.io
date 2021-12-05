@@ -1,44 +1,41 @@
+{% assign posts = paginator.posts %}
 
-  {% assign posts = paginator.posts %}
+{%- if posts.size > 0 -%}
+{%- if page.list_title -%}
+<h2 class="post-list-heading">{{ page.list_title }}</h2>
+{%- endif -%}
+<ul class="list-unstyled">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {%- for post in paginator.posts -%}
+  <li>
+    {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <h2 class="text-primary">{{ post.title | escape }}</h2>
+    </a>
+    <div class="post-meta">
+      {%- for tag in post.categories -%}
+      <span class="badge rounded-pill bg-primary text-dark">{{tag}}</span>
+      {%- endfor -%}
+      <div class="post-date">
+        <i class="icon-calendar"></i>
+        {{ post.date | date: date_format }}
+      </div>
+    </div>
+    <div class="post">
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </div>
+    <footer>
+      <a class="text-primary" href="{{ post.url | relative_url }}">
+        Read More...
+      </a>
+    </footer>
+  </li>
+  {%- endfor -%}
+</ul>
 
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="list-unstyled">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in paginator.posts -%}
-      <li>
-        {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2 class="text-primary">{{ post.title | escape }}</h2>
-        </a>
-        <div class="post-meta">
-            {%- for tag in post.categories -%}
-             <span class="badge rounded-pill bg-primary text-dark">{{tag}}</span>
-            {%- endfor -%}
-          <div class="post-date">
-            <i class="icon-calendar"></i>
-            {{ post.date | date: date_format }}</div>
-        </div>
-        <div class="post">
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </div>
-		<footer>
-          <a class="text-primary" href="{{ post.url | relative_url }}">
-          Read More...
-        </a>
-        </footer>
-      </li>
-    {%- endfor -%}
-    </ul>
-
-    {%- include pagination.html -%}
+{%- include pagination.html -%}
 
 
-  {%- endif -%}
-
+{%- endif -%}
