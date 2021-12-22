@@ -27,14 +27,12 @@ $theme-colors: (
     "light": $light,
 );
 
-@import url("https://fonts.googleapis.com/css2?family=Domine&family=Playfair+Display&family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
 
 $font-family-sans-serif:      "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       "Cascadia Mono", "Hack", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-$font-family-stylish: "Playfair Display", "Times New Roman";
-$font-family-classic: "Domine", "Times New Roman";
-
+$font-family-classic: "Libre Baskerville", "Times New Roman";
 $font-family-base: $font-family-sans-serif;
 
 $code-font-size: 95%;
@@ -45,15 +43,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $font-family-stylish;
+    font-family: $font-family-classic;
 }
 
 .is-font-family-classic {
     font-family: $font-family-classic;
-}
-
-.is-font-family-stylish {
-    font-family: $font-family-stylish;
 }
 
 pre {
