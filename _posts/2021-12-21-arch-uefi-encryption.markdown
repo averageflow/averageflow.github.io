@@ -6,8 +6,6 @@ description: Installing Arch Linux on UEFI with Full Disk Encryption
 categories: ["Arch", "Linux", "UEFI", "installation", "encryption"]
 ---
 
-# Arch Linux on UEFI with Full Disk Encryption
-
 This is a step by step guide to installing Arch Linux on UEFI with full disk encryption. It deliberately contains no unnecessary words or bling. It is heavily based on the Arch Linux wiki’s installation guide so if you’re ever stuck, just refer to it and the rest of [the awesome Arch wiki](https://wiki.archlinux.org/).
 
 ### Download ISO
@@ -239,3 +237,5 @@ And restart your machine with `sudo reboot`.
 
 ## Welcome to the master race of Arch Linux
 
+ 
+ 
