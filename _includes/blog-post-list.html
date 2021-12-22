@@ -9,7 +9,7 @@
   {%- for post in paginator.posts -%}
   <li class="p-3">
     {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
-    <a class="h3" href="{{ post.url | relative_url }}">
+    <a class="h3 text-primary" href="{{ post.url | relative_url }}">
       {{ post.title | escape }}
     </a>
     <div class="post-meta">
