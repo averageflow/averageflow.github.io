@@ -177,7 +177,21 @@ This only makes sense if you have more than 4GB of RAM.
 
 Run `echo 'vm.swappiness=10' | sudo tee /etc/sysctl.d/99-swappiness.conf` to reduce the swappiness permanently.
 
-### The coolest Pacman
+## The coolest Pacman
 
 If you want to make Pacman look cooler you can edit the configuration file with `sudo nvim /etc/pacman.conf` and uncomment the `Color` option and add just below the `ILoveCandy` option.
+
+## Installing Plasma DE
+
+I personally choose for Plasma DE (KDE), but of course if you prefer another setup now is the time to leave this guide. Hope you found it useful.
+
+To install Plasma run `sudo pacman -S xorg plasma plasma-wayland-session kde-applications`. This might take a while.
+
+Then enable auto-start at boot with
+```
+sudo systemctl enable sddm.service
+sudo systemctl enable NetworkManager.service
+```
+
+And restart your machine with `sudo reboot`.
 
