@@ -10,7 +10,7 @@ description: I'm Josep Jesus Bigorra Algaba. Read more about me.
 
 ### Me in 10 seconds
 
-I am a software engineer specialized in back-end development with Go, MySQL, TypeScript, Java, Groovy, Shell scripting and NGINX configurations, as well as FreeBSD enthusiast and aspiring Jails and rc.d professional, and Linux connaisseur.
+I am a software engineer specialized in back-end development with Java, Haskell, Go, MySQL, TypeScript, Java, Groovy, Shell scripting and NGINX configurations, as well as FreeBSD enthusiast and aspiring Jails and rc.d professional, and Linux connaisseur.
 
 I like Distributed Tracing and understand observability might be critical for corporations.
 
@@ -44,7 +44,7 @@ Inconsistent APIs and naming, non-normalized databases, colleagues that are not 
 ### Other things you might want to know:
 
 * My favorite baked good: Bananenbrood
-* My daily driver: Linux Mint on a Lenovo Thinkpad with FreeBSD VMs
+* My daily driver: Fedora with GNOME on a Lenovo Thinkpad with FreeBSD VMs
 * My favourite beer: Difficult question.. La Chouffe, Tripel Karmeliet, Duvel.
 * My birthday: 23rd December 1996.
 * Fruit on pizza? I must say I am positively surprised after a long denial period

@@ -1,53 +1,12 @@
-@import "bootstrap/scss/_functions";
-@import "bootstrap/scss/_mixins";
-@import "bootstrap/scss/_variables";
-
-// $ebony: #353535;
-// $freesia: #dfb300;
-// $puce: rgb(82, 29, 26);
-// $ivory: #f4efdb;
-// $slime: rgb(120, 212, 83);
-// $manonBlue: #66d9ef;
-// $manonPink: #fa498a;
-
-// /* redefine theme colors for dark theme */
-// $primary: $freesia;
-// $dark: $ebony;
-// $code-color: $slime;
-// $pre-color: white;
-// $link-color: $manonBlue;
-
-// $theme-colors: (
-//     "primary": $primary,
-//     "secondary": $secondary,
-//     "success": $success,
-//     "danger": $danger,
-//     "info": $indigo,
-//     "dark": $dark,
-//     "light": $light,
-// );
-
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans&family=Source+Code+Pro&family=Cantarell&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
-
-$font-family-sans-serif:      "Cantarell", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace:       "Source Code Pro", "Hack", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-$font-family-classic: "Libre Baskerville", "Times New Roman";
-$font-family-base: $font-family-sans-serif;
-
-$code-font-size: 95%;
-
-
-pre {
-    padding: 1em;
-    border-radius: 4px;
-}
-
 /* GNOME CSS theme for Sphinx + Furo
 
 https://www.sphinx-doc.org
 https://pypi.org/project/furo/
 */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700,800&family=Cantarell:300,400,600,700,800&display=swap');
+
 
 :root {
   --rounded-corner: 12px;
@@ -107,6 +66,34 @@ https://pypi.org/project/furo/
 
 ::selection {
 	background-color:  rgba(153,193,241,0.5);
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  padding: 0 3em;
+  width: 66em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+pre {
+  background-color: #353535;
+  border-radius: 12px;
+  padding: 1.5em;
+}
+
+code {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  color: #26a269;
+}
+
+.tag {
+  padding: 0.5em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -376,5 +363,89 @@ footer {
   margin-bottom: 3rem;
 }
 
+.sidebar-brand-text {
+  font-size: 14pt;
+  font-weight: 800;
+}
 
-@import "bootstrap/scss/bootstrap";
+.headerlink { visibility: hidden !important; }
+
+.sidebar-search-container,
+.sidebar-search {
+	border-radius: 99999px;
+	border: none;
+}
+.sidebar-search-container {
+	margin: 0 var(--sidebar-item-spacing-horizontal);
+	transition: background-color 0.2s linear;
+	background-color: rgba(0,0,0,0.06);
+}
+.sidebar-search-container:hover {
+  background-color: rgba(0,0,0,0.09);
+}
+.sidebar-search-container:focus-within {
+  background-color: rgba(0,0,0,0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sidebar-search-container {
+    background-color: rgba(255,255,255,0.06);
+  }
+  .sidebar-search-container:hover {
+    background-color: rgba(255,255,255,0.09);
+  }
+  .sidebar-search-container:focus-within {
+    background-color: rgba(255,255,255,0.12);
+  }
+}
+
+.sidebar-tree .toctree-l1,
+.sidebar-tree .toctree-l2 {
+	margin: 1px 12px;
+	border-radius: 6px;
+  color: var(--link);
+}
+
+.sidebar-tree .toctree-l1 > .reference {
+  color: var(--link);
+}
+
+.sidebar-tree .toctree-l2 {
+	margin: 1px 0;
+}
+
+.sidebar-tree li > ul {
+	margin-left: 0;
+}
+.sidebar-tree li > ul .reference {
+	padding-left: calc(1.5*var(--sidebar-item-spacing-horizontal));
+}
+
+.sidebar-tree li.toctree-l3 a {
+  margin: 1px 0;
+  padding: var(--sidebar-item-spacing-vertical) var(--sidebar-item-spacing-horizontal) 
+           var(--sidebar-item-spacing-vertical) calc(2*var(--sidebar-item-spacing-horizontal)) ; /* extra indentation */
+}
+
+.sidebar-tree .reference {
+	background: rgba(0,0,0,0);
+	transition: background 0.2s linear;
+	border-radius: 6px;
+	padding: var(--sidebar-item-spacing-vertical) calc(0.75*var(--sidebar-item-spacing-horizontal));
+}
+.sidebar-tree .reference:hover,
+.sidebar-tree .current > .reference:hover {
+	/* background: var(--color-background-hover); */
+	background: rgba(0,0,0,0.03);
+}
+
+.sidebar-tree .reference.current {
+	background: rgba(0,0,0,0.06);
+}
+.sidebar-tree .reference.current:hover {
+	background: rgba(0,0,0,0.09);
+}
+
+.sidebar-tree .current-page > .reference {
+	font-weight: 600;
+}
