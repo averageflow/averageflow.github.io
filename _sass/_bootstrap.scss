@@ -37,21 +37,8 @@ $font-family-base: $font-family-sans-serif;
 
 $code-font-size: 95%;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $font-family-classic;
-}
-
-.is-font-family-classic {
-    font-family: $font-family-classic;
-}
 
 pre {
-    background: darken($ebony, 7%);
     padding: 1em;
     border-radius: 4px;
 }

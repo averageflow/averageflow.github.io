@@ -9,14 +9,14 @@
   {%- for post in paginator.posts -%}
   <li class="p-3">
     {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
-    <a class="h3 text-primary is-font-family-classic" href="{{ post.url | relative_url }}">
+    <a class="h3 text-primary " href="{{ post.url | relative_url }}">
       {{ post.title | escape }}
     </a>
     <div class="post-meta">
       {%- for tag in post.categories -%}
       <span class="badge rounded-pill bg-primary text-dark">{{tag}}</span>
       {%- endfor -%}
-      <div class="is-font-family-classic">
+      <div class="">
         <i class="icon-calendar"></i>
         {{ post.date | date: date_format }}
       </div>
@@ -27,7 +27,7 @@
       {%- endif -%}
     </div>
     <!-- <footer>
-      <a class="text-primary is-font-family-classic" href="{{ post.url | relative_url }}">
+      <a class="text-primary " href="{{ post.url | relative_url }}">
         Read More
       </a>
     </footer> -->
