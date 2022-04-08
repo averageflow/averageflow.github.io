@@ -2,30 +2,30 @@
 @import "bootstrap/scss/_mixins";
 @import "bootstrap/scss/_variables";
 
-$ebony: #353535;
-$freesia: #dfb300;
-$puce: rgb(82, 29, 26);
-$ivory: #f4efdb;
-$slime: rgb(120, 212, 83);
-$manonBlue: #66d9ef;
-$manonPink: #fa498a;
+// $ebony: #353535;
+// $freesia: #dfb300;
+// $puce: rgb(82, 29, 26);
+// $ivory: #f4efdb;
+// $slime: rgb(120, 212, 83);
+// $manonBlue: #66d9ef;
+// $manonPink: #fa498a;
 
-/* redefine theme colors for dark theme */
-$primary: $freesia;
-$dark: $ebony;
-$code-color: $slime;
-$pre-color: white;
-$link-color: $manonBlue;
+// /* redefine theme colors for dark theme */
+// $primary: $freesia;
+// $dark: $ebony;
+// $code-color: $slime;
+// $pre-color: white;
+// $link-color: $manonBlue;
 
-$theme-colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "success": $success,
-    "danger": $danger,
-    "info": $indigo,
-    "dark": $dark,
-    "light": $light,
-);
+// $theme-colors: (
+//     "primary": $primary,
+//     "secondary": $secondary,
+//     "success": $success,
+//     "danger": $danger,
+//     "info": $indigo,
+//     "dark": $dark,
+//     "light": $light,
+// );
 
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans&family=Source+Code+Pro&family=Cantarell&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
