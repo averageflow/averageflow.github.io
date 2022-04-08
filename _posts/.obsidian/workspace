@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "c229a9e5ce1fb7a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "351cc4bd6f954a29",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2021-12-21-arch-uefi-encryption.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd70431737becb60",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e7c5115964ded43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1d434b0f8ef07ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9adbe5c5bed24bad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9a47cf2d1f36f55f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c095c4b09fe229c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08568455b55168e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2021-12-21-arch-uefi-encryption.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "351cc4bd6f954a29",
+  "lastOpenFiles": [
+    "2021-12-21-arch-uefi-encryption.md"
+  ]
+}

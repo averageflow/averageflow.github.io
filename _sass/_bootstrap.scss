@@ -2,7 +2,7 @@
 @import "bootstrap/scss/_mixins";
 @import "bootstrap/scss/_variables";
 
-$ebony: #313534;
+$ebony: #353535;
 $freesia: #dfb300;
 $puce: rgb(82, 29, 26);
 $ivory: #f4efdb;
@@ -27,11 +27,11 @@ $theme-colors: (
     "light": $light,
 );
 
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans&family=Source+Code+Pro&family=Cantarell&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
 
-$font-family-sans-serif:      "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace:       "Cascadia Code", "Hack", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-sans-serif:      "Cantarell", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       "Source Code Pro", "Hack", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-classic: "Libre Baskerville", "Times New Roman";
 $font-family-base: $font-family-sans-serif;
 
