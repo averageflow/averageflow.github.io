@@ -2,19 +2,19 @@
 
 {%- if posts.size > 0 -%}
 {%- if page.list_title -%}
-<h2 class="post-list-heading">{{ page.list_title }}</h2>
+<h2>{{ page.list_title }}</h2>
 {%- endif -%}
 <ul style="list-style: none;">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {%- for post in paginator.posts -%}
-  <li class="p-3">
+  <li>
     {%- assign date_format = site.minimal.date_format | default: "%b %-d, %Y" -%}
     <a href="{{ post.url | relative_url }}">
       <h3>
         {{ post.title | escape }}
       </h3>
     </a>
-    <div class="post">
+    <div>
       {{ post.description }}
     </div>
 
