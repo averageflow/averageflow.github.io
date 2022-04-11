@@ -3,7 +3,5 @@
 # only Main files contain this front matter, not partials.
 ---
 
-// @import "code-highlight.scss";
-//@import "../../_sass/bootstrap/scss/bootstrap.scss";
-@import "codehighlight";
-@import "gnome_style";
+@import "code_highlight";
+@import "joe_style";
